@@ -2,8 +2,8 @@ import ScrollableImage from "./ScrollableImage"
 
 const Preview = () => {
   return (
-    <div className="bg-primary text-base-100 text-center">
-      <div className="grid gap-4 align-element pt-10 pb-24 md:pt-20 md:pb-48 2xl:pt-10 2xl:pb-80">
+    <div className="md:grid bg-primary text-base-100 text-center">
+      <div className="grid gap-4 align-element pt-12 md:pt-20 2xl:pt-10">
         <div className="text-3xl font-medium">Here's a preview of our Talent Profile</div>
         <div className="md:mx-48">
           Our profiles include the most essential information to help you decide whether to make contact.
@@ -11,7 +11,7 @@ const Preview = () => {
           each candidiate upfront.
         </div>
       </div>
-      <div className="2xl:grid 2xl:place-items-center">
+      <div className="relative top-20 2xl:top-72">
         <ScrollableImage />
       </div>
     </div>
